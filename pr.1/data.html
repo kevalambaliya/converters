@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-identity">
+          <h1><a href="#">converter</a></h1>
+        </div>  
+        <nav class="site-navigation">
+          <ul class="nav">
+            <li><a href="distance.html">distance</a></li> 
+            <li><a href="currency.html">currency</a></li> 
+            <li><a href="tempreture.html">tempreture</a></li> 
+            <li><a href="data.html">data</a></li> 
+          </ul>
+        </nav>
+      </header>
+      <form action="" class="distans ">
+        <div class="main-content">
+          <div class="km">
+            <h1>KB TO MB</h1>
+            <label for="">KB:</label>
+            <input type="number" placeholder="Enter kb" id="inp-kb">
+            <p id="op-mb"></p>
+
+            <button type="button" onclick="ktom()">convert</button>
+        </div>
+        <div class="mb" style="padding-top: 10px;">
+            <h1>MB TO GB</h1>
+            <label for="">MB :</label>
+            <input type="number" placeholder="Enter mb" id="inp-mb">
+            <p id="op-gb"></p>
+
+            <button type="button" onclick="mtog()">convert</button>
+        </div>
+        </div>
+    </form>
+</body>
+<script src="script.js"></script>
+</html>

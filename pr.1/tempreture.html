@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-identity">
+          <h1><a href="#">converter</a></h1>
+        </div>  
+        <nav class="site-navigation">
+          <ul class="nav">
+            <li><a href="distance.html">distance</a></li> 
+            <li><a href="currency.html">currency</a></li> 
+            <li><a href="tempreture.html">tempreture</a></li> 
+            <li><a href="data.html">data</a></li> 
+          </ul>
+        </nav>
+      </header>
+      <form action="">
+        <div class="main-content">
+          <div class="ctof">
+            <h2>CELSIOUS TO FARENHIET</h2>
+            <label for="">CELSIOUS :</label>
+            <input type="number" placeholder="enter celsious" id="inp-celsius">
+            <p id="op-frn"></p>
+
+            <button type="button" onclick="ctof()">convert</button>
+        </div>
+        <div class="ftoc" style="padding-top: 10px;">
+            <h2>FARENHIET TO CELSIOUS</h2>
+            <label for="foot">FARENHIET :</label>
+            <input type="number" placeholder="enter Fahrenheit" id="inp-fal">
+            <p id="op-cal"></p>
+
+            <button type="button" onclick="ftoc()">convert</button>
+        </div>
+        </div>
+        <div class="content-2">
+          <div class="ktof" style="padding-top: 10px;">
+            <h2>KELVIN TO FARENHIET</h2>
+            <label for="foot">KELVIN :</label>
+            <input type="number" placeholder="enter kelvin" id="inp-kel">
+            <p id="op-fe"></p>
+
+            <button type="button" onclick="ktof()">convert</button>
+        </div>
+        <div class="ctok" style="padding-top: 10px;">
+            <h2>CELSIOUS TO KELVIN</h2>
+            <label for="foot">CELSIOUS :</label>
+            <input type="number" placeholder="enter Celsius" id="inp-ce">
+            <p id="op-ke"></p>
+
+            <button type="button" onclick="ctok()">convert</button>
+        </div>
+        </div>
+    </form>
+</body>
+<script src="script.js"></script>
+</html>

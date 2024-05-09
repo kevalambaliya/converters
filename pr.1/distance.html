@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-identity">
+          <h1><a href="#">converter</a></h1>
+        </div>  
+        <nav class="site-navigation">
+          <ul class="nav">
+            <li><a href="distance.html">distance</a></li> 
+            <li><a href="currency.html">currency</a></li> 
+            <li><a href="tempreture.html">tempreture</a></li> 
+            <li><a href="data.html">data</a></li> 
+          </ul>
+        </nav>
+      </header>
+    <form action="">
+        <div class="main-content">
+          <div class="mtof">
+            <h2>METER TO FOOT</h2>
+            <label for="">METER :</label>
+            <input type="number" placeholder="ENTER METER" id="inp-meter">
+            <p id="op-foot"></p>
+
+            <button type="button" onclick="metof()">convert</button>
+        </div>
+        <div class="ftom">
+            <h2>FOOT TO METER</h2>
+            <label for="">FOOT :</label>
+            <input type="number" placeholder="ENTER METER" id="inp-foot">
+            <p id="op-meter"></p>
+
+            <button type="button" onclick="ftom()">convert</button>
+        </div>
+        </div>
+        <div class="content-2">
+          <div class="mtokm">
+            <h2>METER TO KM</h2>
+            <label for="">METER :</label>
+            <input type="number" placeholder="ENTER METER" id="inp-meter-km">
+            <p id="op-km"></p>
+
+            <button type="button" onclick="metokm()">convert</button>
+        </div>
+        <div class="mtokm">
+            <h2>KM TO FOOT</h2>
+            <label for="">KM :</label>
+            <input type="number" placeholder="ENTER METER" id="inp-km-meter">
+            <p id="op-meter-km"></p>
+
+            <button type="button" onclick="ktofe()">convert</button>
+        </div>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

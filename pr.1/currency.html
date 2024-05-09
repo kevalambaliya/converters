@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-identity">
+          <h1><a href="#">converter</a></h1>
+        </div>  
+        <nav class="site-navigation">
+          <ul class="nav">
+            <li><a href="distance.html">distance</a></li> 
+            <li><a href="currency.html">currency</a></li> 
+            <li><a href="tempreture.html">tempreture</a></li> 
+            <li><a href="data.html">data</a></li> 
+          </ul>
+        </nav>
+      </header>
+      <form action="">
+        <div class="main-content">
+          <div class="mtof">
+            <h2>INDIAN TO JAPANESE</h2>
+            <label for="">INDIA :</label>
+            <input type="number" placeholder="enter rupees" id="inp-ind">
+            <p id="op-jpy"></p>
+
+            <button type="button" onclick="itoj()">convert</button>
+        </div>
+        <div class="ftom">
+            <h2>INDIAN TO NEPAL</h2>
+            <label for="">INDIA :</label>
+            <input type="number" placeholder="ENTER rupees" id="inp-ind-npl">
+            <p id="op-npl"></p>
+
+            <button type="button" onclick="ftome()">convert</button>
+        </div>
+        </div>
+        <div class="content-2">
+          <div class="mtokm">
+            <h2>SRILANKA TO US</h2>
+            <label for="">SRILANKA :</label>
+            <input type="number" placeholder="ENTER rupees" id="inp-srl-us">
+            <p id="op-us"></p>
+
+            <button type="button" onclick="srltous()">convert</button>
+        </div>
+        <div class="mtokm">
+            <h2>AUS TO CHINSE</h2>
+            <label for="">AUS :</label>
+            <input type="number" placeholder="ENTER rupees" id="inp-aus-chns">
+            <p id="op-chns"></p>
+
+            <button type="button" onclick="astocns()">convert</button>
+        </div>
+        </div>
+    </form>
+</body>
+<script src="script.js"></script>
+</html>
